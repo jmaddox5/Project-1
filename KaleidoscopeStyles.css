@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, hsl(126, 96%, 63%), hsl(175, 92%, 71%));
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: 2px 2px 5px rgba(84, 84, 84, 0.3);
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+main {
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding: 0 20px;
+}
